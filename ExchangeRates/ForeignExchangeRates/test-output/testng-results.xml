@@ -2,41 +2,41 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9842" started-at="2020-10-09T12:45:25Z" finished-at="2020-10-09T12:45:35Z">
+  <suite name="Default suite" duration-ms="13112" started-at="2020-10-09T15:29:33Z" finished-at="2020-10-09T15:29:46Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@31a5c39e]" name="feature" class="runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9842" started-at="2020-10-09T12:45:25Z" finished-at="2020-10-09T12:45:35Z">
+    <test name="Default test" duration-ms="13112" started-at="2020-10-09T15:29:33Z" finished-at="2020-10-09T15:29:46Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@31a5c39e]" name="setUpClass" is-config="true" duration-ms="171" started-at="2020-10-09T12:45:25Z" finished-at="2020-10-09T12:45:26Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@31a5c39e]" name="setUpClass" is-config="true" duration-ms="169" started-at="2020-10-09T15:29:33Z" finished-at="2020-10-09T15:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@31a5c39e]" name="feature" duration-ms="7168" started-at="2020-10-09T12:45:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-09T12:45:33Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@31a5c39e]" name="feature" duration-ms="7729" started-at="2020-10-09T15:29:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-09T15:29:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[GET API for latest Foreign Exchange Rates]]>
+                <![CDATA[GET and validate conversion rates for latest dates using Foreign Exchange Rates API]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@31a5c39e]" name="feature" duration-ms="2158" started-at="2020-10-09T12:45:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-09T12:45:35Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@31a5c39e]" name="feature" duration-ms="4871" started-at="2020-10-09T15:29:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-09T15:29:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[To get past/future dates conversion rates from Foreign Exchange Rates API]]>
+                <![CDATA[Get and Validate conversion rates past/future dates conversion rates from Foreign Exchange Rates API]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@31a5c39e]" name="tearDownClass" is-config="true" duration-ms="280" started-at="2020-10-09T12:45:35Z" finished-at="2020-10-09T12:45:35Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@31a5c39e]" name="tearDownClass" is-config="true" duration-ms="273" started-at="2020-10-09T15:29:46Z" finished-at="2020-10-09T15:29:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

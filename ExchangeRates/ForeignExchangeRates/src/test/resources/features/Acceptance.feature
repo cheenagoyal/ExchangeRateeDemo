@@ -1,16 +1,16 @@
 @Acceptance
-Feature: GET API for latest Foreign Exchange Rates
-  Validate that the API is fit for purpose in the use of the exchange rate for financial reasons 
+Feature: GET and validate conversion rates for latest dates using Foreign Exchange Rates API
+  Validate that Foreign Exchange Rates API is fit for consumption for financial reasons 
   
 
 Background:
-  Given Exchange Rates API is accessible
+  Given Foreign Exchange Rates API is accessible
   
- @AcceptanceCriteria1
- Scenario Outline: Validate the api's with valid request 
+ @UAT
+ Scenario Outline: Validate the API responds with correct status code when queried with different parameter combinations 
  
-     When User hits the API with endpoint with "<endpoint>", "<Base>", "<Symbols>"
-     Then Response status code should be 200
+     When API is hit with endpoint as "<endpoint>", "<Base>", "<Symbols>"
+     Then API Should respond with status code as "200"
      
     
 
