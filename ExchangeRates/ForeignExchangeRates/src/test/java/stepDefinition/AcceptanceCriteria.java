@@ -40,7 +40,7 @@ public class AcceptanceCriteria extends BaseClass {
 
 	// Validating the response code
 
-	@Then("^User should respond with status code as (//d+)$")
+	@Then("^Response status code should be (//d+)$")
 	public void userShouldGetStatusCode(int expectedStatusCode) {
 
 		// Extracting status code to verify

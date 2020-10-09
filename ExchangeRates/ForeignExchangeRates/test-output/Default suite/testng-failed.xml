@@ -6,8 +6,9 @@
       <class name="runner.TestRunner">
         <methods>
           <include name="tearDownClass"/>
-          <include name="feature" invocation-numbers="1"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="setUpClass"/>
+          <include name="writeExtentReport"/>
         </methods>
       </class> <!-- runner.TestRunner -->
     </classes>
