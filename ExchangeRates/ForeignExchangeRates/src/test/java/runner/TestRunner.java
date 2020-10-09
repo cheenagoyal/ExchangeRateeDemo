@@ -13,7 +13,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		features = "src/test/resources/features", 
 		glue = "stepDefinition",
 		monochrome = true, 
-		tags = {" @Test" 					
+		tags = {"@Acceptance, @Regression" 					
 		},
 		plugin = {
 				"pretty",
