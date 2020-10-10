@@ -1,0 +1,15 @@
+About Framework: - This is scalable framework.
+This framework contains of BDD concepts with respective to Rest Assured terminologies.
+
+It comprises of : 
+Baseclass-Generic Functions and objects to be used.
+Test Runner- Main class to initiate the API under test.
+Feature File-Consists of Acceptane and Regression test cases.
+Step Defination- Defines the feature to carry assertions.
+HTML file- Report.
+
+How to use:
+Just run the test runner class as TestNG
+
+Report Viweing: 
+Just go to target folder of src project and access the index.html
